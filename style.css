@@ -1,0 +1,83 @@
+:root {
+  --primary-color: rgb(85, 17, 141);
+}
+* {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #000;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+.navbar > * {
+  /* border: 1px solid white; */
+}
+.line {
+  background-color: #fff;
+
+  font-size: 0.25rem;
+  color: #fff;
+  height: 60px;
+  width: 2px;
+}
+ul {
+  list-style: none;
+  margin-left: 1vw;
+  margin-right: 35vw;
+}
+li {
+  display: inline;
+  margin: 0 1.5vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-small {
+  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+  background-color: var(--primary-color);
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: normal;
+  border: none;
+}
+[aria-label='hero'] {
+  background-image: url('../assets/bg.png');
+  min-height: 80vh;
+  background-size: cover;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 90vh; */
+  color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15vw;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  text-align: center;
+}
+p {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-large {
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin: 5vh;
+  background-color: var(--primary-color);
+  border: none;
+}
